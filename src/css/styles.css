@@ -1,0 +1,36 @@
+body {
+  background: #222;
+  color: #fff;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  place-items: center;
+  place-content: center;
+}
+
+main h1 {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+main .grid-container {
+  background: #2a2a2a;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  padding: 1rem;
+  width: 24.25rem;
+}
+
+main .grid-container .grid-block {
+  cursor: pointer;
+  height: 2rem;
+  width: 2rem;
+}
+
+main .grid-container .unfilled {
+  background: #444;
+}
+
+main .grid-container .filled {
+  background: #fff;
+}
