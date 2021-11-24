@@ -6,3 +6,6 @@ function changeColor() {
 }
 
 block.addEventListener('click', changeColor);
+
+/* To do
+1) Get function to work on every .grid-block */
