@@ -1,11 +1,8 @@
-let block = document.querySelector('.grid-block');
+let blocks = document.querySelector(".grid-block");
 
-function changeColor() {
-  console.log('hey');
-  block.classList.toggle('filled');
-}
-
-block.addEventListener('click', changeColor);
+blocks.addEventListener('click', function() {
+  blocks.classList.toggle('filled');
+})
 
 /* To do
 1) Get function to work on every .grid-block */
