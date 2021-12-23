@@ -1,8 +1,14 @@
-let blocks = document.querySelector(".grid-block");
+function paintGrid() {
+  let grid = document.querySelector('#grid-container');
 
-blocks.addEventListener('click', function() {
-  blocks.classList.toggle('filled');
-})
+  grid.addEventListener('click', event => {
+    if (event.target.className === 'grid-block unfilled') {
+      event.target.classList.add('filled');
+    } else if (event.target.className === 'grid-block unfilled filled') {
+      event.target.classList.remove('filled');
+    }
+  });
+}
 
-/* To do
-1) Get function to work on every .grid-block */
+paintGrid();
+

@@ -12,7 +12,7 @@ main h1 {
   text-align: center;
 }
 
-main .grid-container {
+main #grid-container {
   background: #2a2a2a;
   display: flex;
   flex-wrap: wrap;
@@ -21,16 +21,13 @@ main .grid-container {
   width: 24.25rem;
 }
 
-main .grid-container .grid-block {
+main #grid-container .grid-block {
   cursor: pointer;
   height: 2rem;
   width: 2rem;
-}
-
-main .grid-container .unfilled {
   background: #444;
 }
 
-main .grid-container .filled {
+main #grid-container .filled {
   background: #fff;
 }

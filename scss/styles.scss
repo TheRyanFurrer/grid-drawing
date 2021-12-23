@@ -12,7 +12,7 @@ main {
     margin-bottom: 5rem;
     text-align: center;
   }
-  .grid-container {
+  #grid-container {
     background: #2a2a2a;
     display: flex;
     flex-wrap: wrap;
@@ -24,11 +24,12 @@ main {
       cursor: pointer;
       height: 2rem;
       width: 2rem;
-    }
-
-    .unfilled {
       background: #444;
     }
+
+    // .unfilled {
+    //   background: #444;
+    // }
 
     .filled {
       background: #fff;
