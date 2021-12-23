@@ -3,6 +3,7 @@ body {
   color: #fff;
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
   place-items: center;
   place-content: center;
 }
