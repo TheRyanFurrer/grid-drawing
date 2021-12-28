@@ -1,0 +1,7 @@
+-Fix reset button js
+-Style reset button
+-add ability to increase grid size
+  -100, 150, 200
+-enable being able to drag mouse/finger and fill any blocks that are dragged over
+-add abilty to change colors
+-add light theme?
