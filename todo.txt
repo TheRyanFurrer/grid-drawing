@@ -1,4 +1,3 @@
--Fix reset button js
 -Style reset button
 -add ability to increase grid size
   -100, 150, 200
