@@ -12,7 +12,6 @@ main h1 {
   margin-bottom: 3rem;
   text-align: center;
 }
-
 main #grid-container {
   background: #2a2a2a;
   display: flex;
@@ -22,23 +21,19 @@ main #grid-container {
   padding: 1rem;
   width: 24.25rem;
 }
-
 main #grid-container .grid-block {
   cursor: pointer;
   height: 2rem;
   width: 2rem;
   background: #444;
 }
-
 main #grid-container .filled {
   background: #fff;
 }
-
 main aside {
   display: flex;
   place-content: center;
 }
-
 main aside #reset-btn {
-  cursor: pointer;
-}
+  cursor: hour;
+}/*# sourceMappingURL=styles.css.map */

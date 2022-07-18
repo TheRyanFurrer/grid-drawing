@@ -1,0 +1,46 @@
+body {
+	background: #222;
+	color: #fff;
+	display: flex;
+	font-family: Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	place-items: center;
+	place-content: center;
+}
+
+main {
+	h1 {
+		margin-bottom: 3rem;
+		text-align: center;
+	}
+	#grid-container {
+		background: #2a2a2a;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.25rem;
+		margin-bottom: 1.5rem;
+		padding: 1rem;
+		width: 24.25rem;
+		// width: 50%;
+
+		.grid-block {
+			cursor: pointer;
+			height: 2rem;
+			width: 2rem;
+			background: #444;
+		}
+
+		.filled {
+			background: #fff;
+		}
+	}
+
+	aside {
+		display: flex;
+		place-content: center;
+
+		#reset-btn {
+			cursor: hour;
+		}
+	}
+}
