@@ -8,20 +8,29 @@ body {
 	place-content: center;
 }
 
+button {
+	background: none;
+	border: none;
+	border-radius: none;
+	margin: 0;
+	padding: 0;
+}
+
 main {
+	text-align: center;
 	h1 {
-		margin-bottom: 3rem;
-		text-align: center;
+		line-height: 1.15;
 	}
+
 	#grid-container {
 		background: #2a2a2a;
-		display: flex;
-		flex-wrap: wrap;
+		display: grid;
+		grid-template-columns: repeat(10, 1fr);
 		gap: 0.25rem;
+		margin-top: 1.5rem;
 		margin-bottom: 1.5rem;
 		padding: 1rem;
-		width: 24.25rem;
-		// width: 50%;
+		height: 100%;
 
 		.grid-block {
 			cursor: pointer;
@@ -40,7 +49,9 @@ main {
 		place-content: center;
 
 		#reset-btn {
-			cursor: hour;
+			background: #fff;
+			cursor: pointer;
+			padding: 0.5rem 1rem;
 		}
 	}
 }
